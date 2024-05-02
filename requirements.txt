@@ -1,5 +1,5 @@
 aiofiles==23.2.1
-aiohttp==3.8.4
+aiohttp==3.9.4
 aiohttp_socks==0.8.4
 aioimaplib==1.0.1
 colorama==0.4.6
@@ -12,3 +12,4 @@ playwright==1.40.0
 termcolor==2.4.0
 toml==0.10.2
 web3==6.13.0
+eth-abi>=5.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
